@@ -1,3 +1,5 @@
 print('Hello #Python')
 
-import cmath
+a = 'My Name is Khan' 
+
+print a.upper()
