@@ -5,6 +5,19 @@ VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Parseltongue", "Parseltongue\Parseltongue.pyproj", "{5245207F-A5CB-4224-AAC5-673FCD5489D5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "google-python-exercises", "google-python-exercises", "{DA29C25A-889F-42B2-ACE1-1882D181C64B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "basic", "basic", "{2A77D748-BDB8-40C9-AC0B-601D2319F102}"
+	ProjectSection(SolutionItems) = preProject
+		google-python-exercises\basic\list1.py = google-python-exercises\basic\list1.py
+		google-python-exercises\basic\list2.py = google-python-exercises\basic\list2.py
+		google-python-exercises\basic\mimic.py = google-python-exercises\basic\mimic.py
+		google-python-exercises\basic\small.txt = google-python-exercises\basic\small.txt
+		google-python-exercises\basic\string1.py = google-python-exercises\basic\string1.py
+		google-python-exercises\basic\string2.py = google-python-exercises\basic\string2.py
+		google-python-exercises\basic\wordcount.py = google-python-exercises\basic\wordcount.py
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +31,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2A77D748-BDB8-40C9-AC0B-601D2319F102} = {DA29C25A-889F-42B2-ACE1-1882D181C64B}
 	EndGlobalSection
 EndGlobal
