@@ -38,6 +38,7 @@ print_words() and print_top().
 """
 
 import sys
+import collections
 
 # +++your code here+++
 # Define print_words(filename) and print_top(filename) functions.
@@ -47,15 +48,15 @@ import sys
 def print_words(filename):
   with open(filename, 'r') as content_file:
     content = content_file.read()
-  words = content.lower().split()
+  words = content.lower().replace('. ',' ').split()
   count = dict()
   for word in words:
     if word in count :
       count[word] +=1
     else :
-      count[word] = 0
-  for key in count.keys() :
-    print key+':'+str(count[word])+' '          
+      count[word] = 1
+  for key in sorted(count):
+    print key+':'+str(count[key])+' '          
 ###
 
 # This basic command line argument parsing code is provided and
