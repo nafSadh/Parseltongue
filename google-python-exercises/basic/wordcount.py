@@ -56,7 +56,7 @@ def print_words(filename):
     else :
       count[word] = 1
   for key in sorted(count):
-    print key+':'+str(count[key])+' '          
+    print key+':'+str(count[key])          
 ###
 
 # This basic command line argument parsing code is provided and
