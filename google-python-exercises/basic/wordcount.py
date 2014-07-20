@@ -18,6 +18,7 @@ word1 count1
 word2 count2
 ...
 
+
 Print the above list in order sorted by word (python will sort punctuation to
 come before letters -- that's fine). Store all the words as lowercase,
 so 'The' and 'the' count as the same word.
