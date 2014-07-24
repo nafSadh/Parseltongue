@@ -1,5 +1,2 @@
-print('Hello #Python')
-
-a = 'My Name is Khan' 
-
-print a.upper()
+#!/usr/bin/python -tt
+import SubSeqSum
